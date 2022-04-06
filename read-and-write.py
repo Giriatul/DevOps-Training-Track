@@ -1,4 +1,4 @@
-# Program to show various ways to read and write data in a file.
+# Program to show various ways to read and write data in a file
 
 file1 = open("myfile.txt","w")
 L = ["This is DevOps \n","This is Docker \n","This is Kubernete \n"]

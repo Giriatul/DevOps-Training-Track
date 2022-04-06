@@ -1,4 +1,4 @@
-# Python3 code to demonstrate working of 
+# Python3 code to demonstrate working of
 # Convert key-value String to dictionary
 # Using map() + split() + loop
   

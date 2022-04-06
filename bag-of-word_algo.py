@@ -1,7 +1,7 @@
 def vectorize(tokens):
     ''' This function takes list of words in a sentence as input 
     and returns a vector of size of filtered_vocab.It puts 0 if the 
-    word is not present in tokens and count of token if present.'''
+    word is not present in tokens and count of token if  present.'''
     vector=[]
     for w in filtered_vocab:
         vector.append(tokens.count(w))

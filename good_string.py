@@ -1,4 +1,4 @@
-# Program to find a good string from a given input
+# Program to find a good string from a given input 
 def solve(s):
    res = []
    for ch in s:

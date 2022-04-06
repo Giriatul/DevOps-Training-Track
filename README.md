@@ -2,7 +2,7 @@
 DevOps Training Schedule for Python, Docker, Jenkins, Minikube test
 Containerize Python Applications:
 
-###################################################################################################################
+###################################################################################################
 Step 1: Create a folder in the local directory. I have created a folder named “DevOps-Training-Track
 ”.
 Step 2: Create a python script (good_string.py) to be run and save it in the same folder.
@@ -11,7 +11,7 @@ Step 4: Create a docker image.
 docker image build -t DevOps-Training-Track
 docker images
 docker run DevOps-Training-Track
-####################################################################################################################
+####################################################################################################
 
 Python
 Week-1-Week2

@@ -1,17 +1,8 @@
-FROM python:3.9.9
-RUN apt-get update && apt-get -y dist-upgrade
-RUN apt install -y netcat
-# Sets an environmental variable that ensures output from python is sent straight to the terminal without buffering it first
-ENV PYTHONUNBUFFERED 1
+#Specifying the base image
+FROM python:3.10
+#here the dockerfile is pulling the python 3.10 from docker hub which already has python installed so we have all the things we need to have python in our container.
+ADD good_string.py.
+#Here we added the python file that we want to run in docker and define its location.
+CMD [ "python3" "./good_string.py" ]
+#lastly we specified the entry command this line is simply running python ./main.py in our container terminal
 
-# Sets the container's working directory to /app
-WORKDIR /app
-
-RUN mkdir /app/report
-# Copies all files from our local project into the container
-# ADD . /app
-COPY . .
-
-RUN python -m pip install --upgrade pip
-# runs the pip install command for all packages listed in the requirements.txt file
-RUN pip install -r requirements.txt

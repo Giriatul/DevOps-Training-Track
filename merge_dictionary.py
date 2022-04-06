@@ -1,4 +1,4 @@
-# Python code to merge dict using update() method
+# Python code to merge dict using update()
 def Merge(dict1, dict2):
 	return(dict2.update(dict1))
 	

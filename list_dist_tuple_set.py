@@ -5,7 +5,7 @@
 # Lists
 l = []
 
-# Adding Element into list
+# Adding Element into lists
 l.append(5)
 l.append(10)
 print("Adding 5 and 10 in list", l)

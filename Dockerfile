@@ -4,5 +4,5 @@ FROM python:3.10
 ADD good_string.py.
 #Here we added the python file that we want to run in docker and define its location.
 CMD [ "python3" "./good_string.py" ]
-#lastly we specified the entry command this line is simply running python ./main.py in our container terminal
+#lastly we specified the entry command this line is simply running python ./good_string.py in our container terminal
 
